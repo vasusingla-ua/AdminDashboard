@@ -1,0 +1,25 @@
+
+.container{
+    display:flex;
+    /* background-color: orange; */
+    /* height:100vh; */
+}
+.menu{
+    flex:1;
+    background-color: var(--bgSoft); 
+    padding: 20px;
+    /* border:2px solid yellow; */
+}
+.content{
+    flex:4;
+    padding: 20px;
+}
+.main{
+    /* border:2px solid green; */
+}
+.cards{
+    margin:10px;
+    display:flex;
+    gap:10px;
+    /* border:2px solid red; */
+}
